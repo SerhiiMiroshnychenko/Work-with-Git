@@ -26,14 +26,14 @@
     git commit -s -m "A message for the merge"
     git ls-files
 
-РЕАЛЬНИЙ ПРИКЛАД MERGE:
+## РЕАЛЬНИЙ ПРИКЛАД MERGE:
 1. Створив дві гілки (main та work)з різними варіантами файлів file1, file2, file3, two
 2. Спроба змержити:
     ```
     git checkout main
     git merge work
     ```
-3. Отримуємо конфлікьти в цих файлах
+3. Отримуємо конфлікти в цих файлах
 4. Дивимся поточний стан:
     ```
     git ls-files
